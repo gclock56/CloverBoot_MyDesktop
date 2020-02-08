@@ -1,0 +1,57 @@
+
+Clover EFI installer log - Sat Jan 18 18:05:07 KST 2020
+Installer version: v2.5k r5103 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *3.0 TB     disk0
+   1:         Microsoft Reserved                         134.2 MB   disk0s1
+   2:       Microsoft Basic Data Media HD                3.0 TB     disk0s2
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *512.1 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                 Apple_APFS Container disk2         511.9 GB   disk1s2
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +511.9 GB   disk2
+                                 Physical Store disk1s2
+   1:                APFS Volume Macintosh HD            12.4 GB    disk2s1
+   2:                APFS Volume Preboot                 44.4 MB    disk2s2
+   3:                APFS Volume Recovery                510.4 MB   disk2s3
+   4:                APFS Volume VM                      20.5 KB    disk2s4
+
+/dev/disk3 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *3.0 TB     disk3
+   1:         Microsoft Reserved                         134.2 MB   disk3s1
+   2:       Microsoft Basic Data Data HD                 3.0 TB     disk3s2
+
+/dev/disk4 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                            EMPRESSES_IN_THE_PA... *48.6 GB    disk4
+
+/dev/disk5 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         400.1 GB   disk5
+   1:           Windows Recovery                         554.7 MB   disk5s1
+   2:                        EFI NO NAME                 104.9 MB   disk5s2
+   3:         Microsoft Reserved                         16.8 MB    disk5s3
+   4:       Microsoft Basic Data Windows HD              399.4 GB   disk5s4
+
+Target volume /Volumes/Macintosh HD on disk2 is APFS on physical store disk1s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/Macintosh HD/EFIROOTDIR/EFI folder to /Volumes/Macintosh HD/EFI-Backups/r5102/2020-01-18-18h05/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
